@@ -24,3 +24,10 @@ print(my_dict.items())
 # change value of age
 my_dict["Age"] = 25
 print(my_dict)
+
+##########################################################################
+# ITEM      SYMBOL      CALLING       ORDERED       DUPLICATE       MUTABLE
+# LIST        []         Index          Y               Y               Y
+# DICT        {}          Keys          Y               N               Y
+# TUPLE       ()         Index          Y               Y               N
+# SETS        {}         -              N               N               N
