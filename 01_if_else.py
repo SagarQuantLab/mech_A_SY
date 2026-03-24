@@ -19,3 +19,10 @@ elif my_age == 18:
 else:
     print("Minor")
 
+
+# reduce code
+my_age = 18
+msg = "Bye"
+if isinstance(my_age, int):
+    msg = "hello"
+print(msg)
